@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.prose h1 {
+  @apply text-4xl font-bold text-green-800 mb-6;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold text-green-700 mt-8 mb-4;
+}
+
+.prose p {
+  @apply text-gray-700 my-4 leading-relaxed;
+}
+
+.prose ul {
+  @apply list-disc pl-6 my-4 space-y-2;
+}
+
+.prose li {
+  @apply text-gray-700;
+}
