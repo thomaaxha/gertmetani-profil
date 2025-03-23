@@ -3,39 +3,39 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 const campaignPhotos = [
   {
-    url: "src/img/gallery/gm-hartakamez.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-hartakamez.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani per Kamzën"
   },
   {
-    url: "src/img/gallery/gm-hartakavaje.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-hartakavaje.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani per Kavajën"
   },
   {
-    url: "src/img/gallery/gm-hartarrogozhine.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-hartarrogozhine.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani per Rrogozhinën"
   },
   {
-    url: "src/img/gallery/gm-hartatirane.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-hartatirane.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani per Tiranën"
   },
   {
-    url: "src/img/gallery/gm-hartavore.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-hartavore.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani per Vorën"
   },
   {
-    url: "src/img/gallery/gm-albitrim.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-albitrim.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani në albitrim"
   },
   {
-    url: "src/img/gallery/gm-prezantim.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-prezantim.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani në prezantim"
   },
   {
-    url: "src/img/gallery/gm-zyre.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-zyre.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani në zyrën e tij"
   },
   {
-    url: "src/img/gallery/gm-televizion.jpeg?auto=format&fit=crop&w=800",
+    url: "img/gallery/gm-televizion.jpeg?auto=format&fit=crop&w=800",
     caption: "Gert Metani në televizion"
   }
 ];

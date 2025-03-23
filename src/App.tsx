@@ -79,7 +79,7 @@ function App() {
             </div>
             <div className="flex justify-center mt-8 md:mt-0">
               <img
-                src="src/img/gertmetani.jpeg"
+                src="img/gertmetani.jpeg"
                 alt="Gert Metani"
                 className="rounded-lg shadow-2xl w-full max-w-sm md:max-w-md"
               />
