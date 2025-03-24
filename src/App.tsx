@@ -9,7 +9,9 @@ import Gallery from './components/Gallery';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  
+  document.title = "Gert Metani";
+  
   const policies = [
     {
       title: "Një Teatër Në Çdo Bashki",
@@ -93,7 +95,10 @@ function App() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-center text-green-800">Jetëshkrim</h2>
           <p className="text-base md:text-lg max-w-3xl mx-auto text-gray-700 leading-relaxed px-4">
-            Gert Metani has dedicated his career to public service and community development. With over 15 years of experience in local government and private sector leadership, he brings a unique perspective to addressing our community's challenges. A graduate of State University with degrees in Public Policy and Business Administration, Gert has consistently demonstrated his commitment to transparent governance and inclusive policy-making. His vision for our state focuses on sustainable economic growth, educational excellence, and environmental stewardship. As a father of two and active community volunteer, he understands firsthand the issues facing our families and is dedicated to creating positive change for all residents.
+          Gert Metani është një jurist i përkushtuar, pedagog i sporteve dhe ekspert i sigurisë publike, i cili ka ndërtuar karrierën e tij mbi parimet e drejtësisë sociale, edukimit dhe mbrojtjes së interesit publik. Si themelues i Klubit të Librit Kavajë (KiLK), ai ka promovuar kulturën dhe dijen si shtylla thelbësore të një shoqërie të zhvilluar.<br />
+          Me një vizion socialdemokrat, ai beson në barazinë e mundësive, fuqizimin e komuniteteve dhe ndërtimin e një shteti që garanton mirëqenie për të gjithë qytetarët. Si pedagog i sporteve, ai njeh rëndësinë e disiplinës, punës në ekip dhe edukimit fizik për një shoqëri të shëndetshme dhe aktive. Përvoja e tij si ekspert i sigurisë publike e ka pajisur me njohuritë dhe aftësitë e nevojshme për të ndërtuar politika të forta në mbrojtje të qytetarëve.<br />
+          Si baba i një djali dhe vullnetar aktiv në komunitet, ai e kupton nga afër sfidat me të cilat përballen familjet tona dhe është i përkushtuar për të sjellë ndryshime pozitive për të gjithë banorët.<br />
+          Një atdhetar i palëkundur, ai e vendos interesin e kombit mbi gjithçka, duke udhëhequr me moton: “Salus Populi, Suprema Lex Esto” – Shëndeti dhe mirëqenia e popullit të jenë ligji më i lartë. Kandidimi i tij për deputet është një angazhim për një qeverisje të drejtë, të ndershme dhe gjithëpërfshirëse, që garanton siguri, arsim cilësor dhe zhvillim të qëndrueshëm për të gjithë shqiptarët.
           </p>
         </div>
       </section>
