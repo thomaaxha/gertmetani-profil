@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Youtube, Timer, Mail, Phone, MapPin, Menu, X , Monitor , AtSign ,  } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube, Timer, Mail, Phone, MapPin, Menu, X , Monitor , AtSign} from 'lucide-react';
 import CountdownTimer from './components/CountdownTimer';
 import SocialLink from './components/SocialLink';
 import PolicyCard from './components/PolicyCard';
@@ -62,18 +62,21 @@ function App() {
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Gert Metani</h1>
               <h2 className="text-2xl md:text-3xl mb-6">Kandidat për deputet në zgjedhjet parlamentare të Republikës së Shqipërisë, 11 Maj 2025</h2>
-              <p className="text-lg md:text-xl mb-8">"Të ndërtojmë një të ardhme më të mirë së bashku"</p>
+              <p className="text-lg md:text-xl mb-8">"ASNJË I LËNË PAS"</p>
               <div className="flex justify-center md:justify-start">
                 <CountdownTimer targetDate="2025-05-11" />
               </div>
               <div className="mt-6">
-                <h3 className="text-xl font-semibold mb-4">Më ndiqni:</h3>
+                <h3 className="text-xl font-semibold mb-4">SHTËPITË E MIA VIRTUALE:</h3>
                 <div className="flex justify-center md:justify-start space-x-6">
                   <SocialLink href="https://www.facebook.com/@gert.metani/" icon={<Facebook size={24} />} label="Facebook" />
                   <SocialLink href="https://www.instagram.com/gert.metani/" icon={<Instagram size={24} />} label="Instagram" />
                   <SocialLink href="https://www.linkedin.com/in/gert-m-807b56181" icon={<Linkedin size={24} />} label="LinkedIn" />
                   <SocialLink href="https://youtube.com/@gertmetani?si=kxv8a9gUM-Zy0bv8" icon={<Youtube size={24} />} label="YouTube" />
-                  <SocialLink href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" label="Tiktok" >T </SocialLink>
+                  {/* <SocialLink href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" label="Tiktok" >T </SocialLink> */}
+                  <a href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icons/tiktok-icon.png" alt="Tik tok" width={24} height={24} style={{ cursor: "pointer" }} />
+                  </a>
                   <SocialLink href="https://x.com/metanigert?s=11" icon={<X size={24} />} label="X" />
                   <SocialLink href="https://www.threads.net/@gert.metani?igshid=NTc4MTIwNjQ2YQ==" icon={<AtSign size={24} />} label="Thread" />
                 </div>
@@ -144,7 +147,7 @@ function App() {
             </div>
             <div className="space-y-6">
               <h3 className="text-xl font-semibold mb-4">Orari i takimeve të fushatës</h3>
-              <p>Cdo ditë</p>
+              <p>Çdo ditë</p>
             </div>
           </div>
         </div>
