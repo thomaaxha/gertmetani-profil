@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 
 const policyContent = {
-  'nje-teater-ne-cdo-bashki': {
+  'një-teatër-në-çdo-bashki': {
     title: "Një Teatër Në Çdo Bashki",
     description: "Përvoja ime me teatrin, nga shfaqjet për të rritur në 2012 deri te teatri i kukullave në 2022 falë birit tim, më bëri të kuptoj rëndësinë e artit në edukim, ndaj nisma ime “Një teatër në çdo bashki të Shqipërisë” synon ta bëjë teatrin të aksesueshëm për të gjithë, si një domosdoshmëri për zhvillimin e shoqërisë dhe mbështetjen e artistëve të rinj.",
     content: `
@@ -43,7 +43,7 @@ const policyContent = {
       Mund të bëhet!
     `
   },
-  'akademite-shumesporteshe-ne-cdo-qytet': {
+  'akademitë-shumësporteshe-në-çdo-qytet': {
     title: "Akademitë Shumësporteshe Në Çdo Qytet",
     description: "Sporti ka qenë dhe mbetet pjesë e pandashme e jetës sime, si atlet dhe trajner, ndaj nisma ime e tretë synon krijimin e klubeve dhe akademive sportive në qarkun e Tiranës, për të ofruar mundësi të larmishme stërvitjeje dhe për të nxitur një stil jetese të shëndetshëm, duke lobuar për mbështetjen institucionale që mungon.",
     content: `
@@ -68,7 +68,7 @@ const policyContent = {
       Tek pika e fundit duhet lobimi, përfaqësimi dhe ndërgjegjësimi!
     `
   },
-  'jo-me-shtëpi-femijesh': {
+  'jo-më-shtëpi-fëmijësh': {
     title: "Jo Më Shtëpi Fëmijësh",
     description: "“JO MË SHTËPI FËMIJËSH” – KOHA PËR NJË REFORMË TË VËRTETË!",
     content: `
@@ -83,7 +83,7 @@ const policyContent = {
       “JO MË SHTËPI FËMIJËSH” nuk është vetëm një slogan, por një angazhim për një të ardhme më të drejtë dhe më humane për fëmijët e Shqipërisë!
     `
   },
-  'parlamenti-shqiptarise': {
+  'parlamenti-shqiptarisë': {
     title: "Parlamenti Shqiptarisë",
     description: "Parlamenti Shqiptarisë.",
     content: `
@@ -134,7 +134,7 @@ const policyContent = {
       Së bashku, mund ta bëjmë ndryshimin!
     `
   },
-  'nje-universitet-ne-kavaje': {
+  'një-universitet-në-kavajë': {
     title: "Një Universitet në Kavajë",
     description: "Duke besuar se arsimi sjell zhvillim, nisma ime për krijimin e një universiteti publik në Kavajë synon të rivitalizojë sektorët kryesorë të ekonomisë dhe të ndalë eksodin e të rinjve, duke e kthyer qytetin në një qendër të dijes dhe mundësive për brezat e ardhshëm.",
     content: `

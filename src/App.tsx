@@ -74,7 +74,6 @@ function App() {
                   <SocialLink href="https://www.instagram.com/gert.metani/" icon={<Instagram size={24} />} label="Instagram" />
                   <SocialLink href="https://www.linkedin.com/in/gert-m-807b56181" icon={<Linkedin size={24} />} label="LinkedIn" />
                   <SocialLink href="https://youtube.com/@gertmetani?si=kxv8a9gUM-Zy0bv8" icon={<Youtube size={24} />} label="YouTube" />
-                  {/* <SocialLink href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" label="Tiktok" >T </SocialLink> */}
                   <a href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" target="_blank" rel="noopener noreferrer">
                     <img src="img/icons/tiktok-icon.png" alt="Tik tok" width={24} height={24} style={{ cursor: "pointer" }} className="text-green-200 hover:text-white transition-colors"/>
                   </a>
@@ -85,7 +84,7 @@ function App() {
             </div>
             <div className="flex justify-center mt-8 md:mt-0">
               <img
-                src="img/gertmetani.jpeg"
+                src="img/gallery/gm-printed-poster.jpeg"
                 alt="Gert Metani"
                 className="rounded-lg shadow-2xl w-full max-w-sm md:max-w-md"
               />
@@ -191,7 +190,7 @@ function App() {
             <div className="hidden md:flex space-x-6">
               <a href="/#about" className="hover:text-green-200">Jetëshkrim</a>
               <a href="/#policies" className="hover:text-green-200">Nismat</a>
-              <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Interviews</Link>
+              <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Intervista</Link>
               <a href="/#gallery" className="hover:text-green-200">Galeria</a>
               <a href="/#contact" className="hover:text-green-200">Kontakt</a>
             </div>
@@ -203,7 +202,7 @@ function App() {
               <div className="flex flex-col space-y-4">
                 <a href="/#about" className="hover:text-green-200" onClick={closeMenu}>Jetëshkrim</a>
                 <a href="/#policies" className="hover:text-green-200" onClick={closeMenu}>Nismat</a>
-                <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Interviews</Link>
+                <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Intervista</Link>
                 <a href="/#gallery" className="hover:text-green-200" onClick={closeMenu}>Galeria</a>
                 <a href="/#contact" className="hover:text-green-200" onClick={closeMenu}>Kontakt</a>
               </div>

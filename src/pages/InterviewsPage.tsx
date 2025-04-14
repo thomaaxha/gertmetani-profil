@@ -20,8 +20,8 @@ const InterviewsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white pt-16 md:pt-20">
       <Helmet>
-        <title>Interviews - Gert Metani for State Senate</title>
-        <meta name="description" content="Watch interviews and discussions with Gert Metani about key policy issues and campaign initiatives." />
+        <title>Intervista - Gert Metani per deputet</title>
+        <meta name="description" content="Shikoni intervista dhe diskutime me Gert Metanin mbi çështjet kryesore të politikave dhe nismat e fushatës." />
       </Helmet>
 
       <div className="container mx-auto px-4 py-12">
