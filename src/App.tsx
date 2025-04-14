@@ -6,6 +6,7 @@ import SocialLink from './components/SocialLink';
 import PolicyCard from './components/PolicyCard';
 import PolicyPage from './pages/PolicyPage';
 import Gallery from './components/Gallery';
+import InterviewsPage from './pages/InterviewsPage';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -75,7 +76,7 @@ function App() {
                   <SocialLink href="https://youtube.com/@gertmetani?si=kxv8a9gUM-Zy0bv8" icon={<Youtube size={24} />} label="YouTube" />
                   {/* <SocialLink href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" label="Tiktok" >T </SocialLink> */}
                   <a href="https://www.tiktok.com/@gert.metani?_t=ZM-8uPqcLOq2oX&_r=1" target="_blank" rel="noopener noreferrer">
-                    <img src="img/icons/tiktok-icon.png" alt="Tik tok" width={24} height={24} style={{ cursor: "pointer" }} />
+                    <img src="img/icons/tiktok-icon.png" alt="Tik tok" width={24} height={24} style={{ cursor: "pointer" }} className="text-green-200 hover:text-white transition-colors"/>
                   </a>
                   <SocialLink href="https://x.com/metanigert?s=11" icon={<X size={24} />} label="X" />
                   <SocialLink href="https://www.threads.net/@gert.metani?igshid=NTc4MTIwNjQ2YQ==" icon={<AtSign size={24} />} label="Thread" />
@@ -138,7 +139,7 @@ function App() {
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="text-green-800 flex-shrink-0" />
-                <span>Së shpejti..</span>
+                <span>+355694115298</span>
               </div>
               <div className="flex items-center space-x-4">
                 <MapPin className="text-green-800 flex-shrink-0" />
@@ -190,6 +191,7 @@ function App() {
             <div className="hidden md:flex space-x-6">
               <a href="/#about" className="hover:text-green-200">Jetëshkrim</a>
               <a href="/#policies" className="hover:text-green-200">Nismat</a>
+              <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Interviews</Link>
               <a href="/#gallery" className="hover:text-green-200">Galeria</a>
               <a href="/#contact" className="hover:text-green-200">Kontakt</a>
             </div>
@@ -201,6 +203,7 @@ function App() {
               <div className="flex flex-col space-y-4">
                 <a href="/#about" className="hover:text-green-200" onClick={closeMenu}>Jetëshkrim</a>
                 <a href="/#policies" className="hover:text-green-200" onClick={closeMenu}>Nismat</a>
+                <Link to="/interviews" className="hover:text-green-200" onClick={closeMenu} role="menuitem">Interviews</Link>
                 <a href="/#gallery" className="hover:text-green-200" onClick={closeMenu}>Galeria</a>
                 <a href="/#contact" className="hover:text-green-200" onClick={closeMenu}>Kontakt</a>
               </div>
@@ -212,6 +215,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/policies/:slug" element={<PolicyPage />} />
+        <Route path="/interviews" element={<InterviewsPage />} />
       </Routes>
     </div>
   );
