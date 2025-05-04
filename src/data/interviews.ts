@@ -7,6 +7,21 @@ export interface YouTubeVideo {
   
   export const interviews: YouTubeVideo[] = [
     {
+      id: "lflmUOMN_Oc",
+      title: "Efektivi i Reneas që do luftojë politikën ashtu si bandat - Gerti Metani, Kandidat i PSD, Tiranë",
+      description: "Gerti Metani, ish-efektiv i RENEA-s dhe kandidat i Partisë Socialdemokrate në Tiranë, tregon pse ka vendosur të hyjë në politikë dhe si synon ta luftojë korrupsionin me të njëjtën vendosmëri si kundër krimit. Me përvojën në terren dhe një qasje të drejtpërdrejtë, ai premton një politikë ndryshe – të pastër, të ndershme dhe me rezultate.",
+      publishedAt: "April 30, 2025"
+    },{
+      id: "wMq0OewLkIs",
+      title: "Gerti Metani - Partia Socialdemokrate | Shqipëria Zgjedh 2025 | RTSH",
+      description: "Në kuadër të fushatës zgjedhore 'Shqipëria Zgjedh 2025', Gerti Metani, përfaqësues i Partisë Socialdemokrate, prezanton vizionin dhe programin e tij për të ardhmen e Shqipërisë. Ndiqni këtë intervistë ekskluzive në RTSH për të mësuar më shumë rreth qëndrimeve politike, prioriteteve të fushatës dhe zgjidhjeve që propozon për sfidat kryesore të vendit.",
+      publishedAt: "April 20, 2025"
+    },{
+      id: "p22oFybAu2w",
+      title: "Një nga RENEA vs Një nga Universiteti! - Shpend Gashi - Tru Podcast",
+      description: "Në TRU Podcast Media, përballen dy botë të ndryshme: një ish-pjesëtar i RENEA-s përballë një ish përfaqësuesi universitar! Socialdemokrati Gert Metani kundër demokratit Anti Establishment në një debat të fortë LIVE! Diskutime, përplasje idesh dhe përgjigje për pyetjet tuaja në kohë reale!",
+      publishedAt: "May 1, 2025"
+    },{
         id: "w-osdAsKDSQ",
         title: "Kavaja 60% rrezikshmëri për ndikimin e votës/ Kandidati i PSD: Denoncon blerjen e votës",
         description: "Kavaja është një nga zonat më të nxehta të këtij procesi zgjedhor, me një rrezikshmëri të lartë prej 60% për ndikimin e votës përmes presioneve apo manipulimeve. Kandidati i Partisë Socialdemokrate (PSD) ka denoncuar publikisht raste të blerjes së votës, duke ngritur shqetësime serioze për integritetin e procesit dhe nevojën për ndërhyrje urgjente nga institucionet përgjegjëse.",
